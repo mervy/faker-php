@@ -20,10 +20,18 @@ It adds 6 shortcuts when editing a Todo file:
 
 ☐ Começar o projeto com PHP 8.4.12 @started(25-09-06 11:30)
     ✔ instalar o php fake (https://fakerphp.org/) com `composer require fakerphp/faker` @done(25-09-06 11:32)
-    ☐ criar o arquivo `index.php` e testar o fake
+    ✔ criar o arquivo `index.php` e testar o fake @done(25-09-06 12:16)
         ✔ criar o arquivo `index.php` e importar o autoload do composer @done(25-09-06 11:36)
         ✔ adicionar o código de exemplo do site do faker e testar @done(25-09-06 11:39)
-        ☐ criar um script para gerar 10 usuários e imprimir na tela
-            ☐ cada usuário deve ter: nome, email, telefone, endereço (rua, cidade, estado, país, CEP)
-            ☐ usar um loop para gerar os 10 usuários
-            ☐ imprimir os usuários em formato legível (ex: JSON pretty print)
+        ✔ criar um script para gerar 10 usuários e imprimir na tela @done(25-09-06 12:16)
+            ✔ criada uma tabela com id (próprio do loop), name, password, hash e exibida com estilização via boostrap 5 @done(25-09-06 12:13)
+            ✔ testes ok. Foi necessário ajustar o `max_execution_time` no php.ini para 300 segundos @done(25-09-06 12:15)
+
+☐ Adicionar lógica para gerar grandes quantidades de dados
+    ☐ criar um formulário para o usuário escolher quantos registros quer gerar (padrão 100) @started(25-09-06 12:17)
+    ☐ criar um array para o usuário digitar os tipos de dados que quer gerar (padrão users) @started(25-09-06 12:17)
+    ☐ criar um botão para gerar os dados @started(25-09-06 12:17)
+    ☐ ao clicar no botão, gerar os dados e exibir na tela apenas 10 @started(25-09-06 12:17)
+        ☐ exibir uma barra de progresso enquanto os dados estão sendo gerados @started(25-09-06 12:17)
+        ☐ exibir os dados em uma tabela paginada @started(25-09-06 12:17)
+    
