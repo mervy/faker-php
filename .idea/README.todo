@@ -28,10 +28,10 @@ It adds 6 shortcuts when editing a Todo file:
             ✔ testes ok. Foi necessário ajustar o `max_execution_time` no php.ini para 300 segundos @done(25-09-06 12:15)
 
 ☐ Adicionar lógica para gerar grandes quantidades de dados
-    ☐ criar um formulário para o usuário escolher quantos registros quer gerar (padrão 100) @started(25-09-06 12:17)
+    ✔ criar um formulário para o usuário escolher quantos registros quer gerar (padrão 100) @started(25-09-06 12:17) @done(25-09-06 13:06) @lasted(49m4s)
     ☐ criar um array para o usuário digitar os tipos de dados que quer gerar (padrão users) @started(25-09-06 12:17)
-    ☐ criar um botão para gerar os dados @started(25-09-06 12:17)
-    ☐ ao clicar no botão, gerar os dados e exibir na tela apenas 10 @started(25-09-06 12:17)
+    ✔ criar um botão para gerar os dados @started(25-09-06 12:17) @done(25-09-06 13:06) @lasted(49m13s)
+    ✔ ao clicar no botão, gerar os dados e exibir na tela apenas 5 @started(25-09-06 12:17) @done(25-09-06 13:06) @lasted(49m25s)
         ☐ exibir uma barra de progresso enquanto os dados estão sendo gerados @started(25-09-06 12:17)
         ☐ exibir os dados em uma tabela paginada @started(25-09-06 12:17)
     
