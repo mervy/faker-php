@@ -1,0 +1,15 @@
+{
+    "name": "mervy/faker-php",
+    "autoload": {
+        "psr-4": {
+            "Mervy\\FakerPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rogério Soares",
+            "email": "rgrsoares@yahoo.com.br"
+        }
+    ],
+    "require": {}
+}
