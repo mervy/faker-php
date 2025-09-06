@@ -11,5 +11,7 @@
             "email": "rgrsoares@yahoo.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "fakerphp/faker": "^1.24"
+    }
 }
