@@ -1,0 +1,29 @@
+/*
+It adds 6 shortcuts when editing a Todo file:
+
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+Enter' // Triggers `Todo: Toggle Box`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
+*/
+
+# Instalar um sistema de geração de dados FAKE
+
+☐ Começar a versionar o código do projeto (se ainda não estiver versionado)
+    ✔ criar o repositório remoto com `gh repo create` @done(25-09-06 11:26)
+    ✔ testar se deu certo com `git remote -v` @done(25-09-06 11:26)
+    ✔ fazer o primeito comit com `git add . && git commit -m "Initial commit"` em `main` @done(25-09-06 11:27)
+    ✔ criar a branch `develop` com `git checkout -b develop` e começar o projeto por ela @done(25-09-06 11:27)
+    ☐ ao terminar uma funcionalidade, fazer o merge dela em `main` e depois atualizar `develop` com `git checkout develop && git merge --no-ff main`
+
+☐ Começar o projeto com PHP 8.4.12 @started(25-09-06 11:30)
+    ✔ instalar o php fake (https://fakerphp.org/) com `composer require fakerphp/faker` @done(25-09-06 11:32)
+    ☐ criar o arquivo `index.php` e testar o fake
+        ✔ criar o arquivo `index.php` e importar o autoload do composer @done(25-09-06 11:36)
+        ✔ adicionar o código de exemplo do site do faker e testar @done(25-09-06 11:39)
+        ☐ criar um script para gerar 10 usuários e imprimir na tela
+            ☐ cada usuário deve ter: nome, email, telefone, endereço (rua, cidade, estado, país, CEP)
+            ☐ usar um loop para gerar os 10 usuários
+            ☐ imprimir os usuários em formato legível (ex: JSON pretty print)
