@@ -29,9 +29,21 @@ It adds 6 shortcuts when editing a Todo file:
 
 ☐ Adicionar lógica para gerar grandes quantidades de dados
     ✔ criar um formulário para o usuário escolher quantos registros quer gerar (padrão 100) @started(25-09-06 12:17) @done(25-09-06 13:06) @lasted(49m4s)
-    ☐ criar um array para o usuário digitar os tipos de dados que quer gerar (padrão users) @started(25-09-06 12:17)
     ✔ criar um botão para gerar os dados @started(25-09-06 12:17) @done(25-09-06 13:06) @lasted(49m13s)
     ✔ ao clicar no botão, gerar os dados e exibir na tela apenas 5 @started(25-09-06 12:17) @done(25-09-06 13:06) @lasted(49m25s)
-        ☐ exibir uma barra de progresso enquanto os dados estão sendo gerados @started(25-09-06 12:17)
-        ☐ exibir os dados em uma tabela paginada @started(25-09-06 12:17)
-    
+        ✔ exibir uma barra de progresso enquanto os dados estão sendo gerados @started(25-09-06 12:17) @done(25-09-06 16:01) @lasted(3h44m46s)
+        ✔ exibir o tempo gasto para gerar os dados @started(25-09-06 12:17) @done(25-09-06 16:02) @lasted(3h45m7s)
+
+☐ Adicionar modelos de novos dados a serem gerados
+    ☐ criar um modelo para gerar usuários ou autores
+    ☐ criar um modelo para gerar posts ou artigos
+    ☐ criar um modelo para gerar comentários
+    ☐ criar um modelo para gerar produtos
+    ☐ criar um modelo para gerar pedidos ou vendas
+    ☐ criar um modelo para gerar categorias
+    ☐ criar um modelo para gerar tags
+    ☐ criar um modelo para gerar endereços
+    ☐ criar um modelo para gerar empresas ou organizações
+    ☐ criar um modelo para gerar eventos
+    ☐ criar um modelo para gerar locais ou lugares
+    ☐ criar um modelo para gerar reviews ou avaliações
